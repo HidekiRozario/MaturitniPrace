@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6993865420671209132}
   - component: {fileID: 6993865420671209135}
   - component: {fileID: 6993865420671209120}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ButtonActivator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxDistDown: 0.45
+  onClick:
+    m_PersistentCalls:
+      m_Calls: []
+  isActive: 0
   activateOffset: 0.05
+  btnIds: 0
   activatedMat: {fileID: 2100000, guid: a2fc53cc79e877643a55343b0b9dd692, type: 2}
   deactivatedMat: {fileID: 2100000, guid: a62ffb9b54991b044a838450b1937d49, type: 2}
 --- !u!1 &6993865421555688188
@@ -167,7 +172,7 @@ GameObject:
   - component: {fileID: 6993865421555688179}
   - component: {fileID: 6993865421555688178}
   - component: {fileID: 6993865421555688189}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}

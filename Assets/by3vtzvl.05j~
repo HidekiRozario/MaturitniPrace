@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class WireLoopGame : Game
+{
+    [SerializeField] private WireLoopEnds[] ends;
+    [SerializeField] private RelativeHandle[] tools;
+
+    public override void Update()
+    {
+        if (isBroken)
+        {
+
+        }
+
+        if(ends[0].done && ends[1].done && ends[2].done){
+
+        }
+
+        base.Update();
+    }
+}

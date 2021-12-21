@@ -22,16 +22,12 @@ public class SimonSays : Game
     [SerializeField] private Material flashFail;
     [SerializeField] private Material flashDefault;
 
-    //-------------------------
-    //ADD ON FAIL FEEDBACK TODO
-    //------------------------
-
     private void Start()
     {
         limit = difficulty + 4;
     }
 
-    private void Update()
+    public override void Update()
     {
         if(wasBroken != isBroken)
         {
@@ -42,7 +38,7 @@ public class SimonSays : Game
         if (delayTime > 0)
             delayTime -= Time.deltaTime;
 
-        if (isWrong && delayTime <= 0)
+        if (isWrong && delayTime <= 0 && !isDestroyed)
         {
             int i = 0;
             foreach (GameObject simon in simonSays)
@@ -64,13 +60,14 @@ public class SimonSays : Game
                 {
                     isWrong = false;
                     isOnTest = !isOnTest;
+                    positionFlash = 0;
                 }
                 i++;
             }
             delayTime = delayCooldown;
         }
 
-        if (positionFlash >= limit && delayTime <= 0 && !isWrong)
+        if (positionFlash >= limit && delayTime <= 0 && !isWrong && !isDestroyed)
         {
             foreach (GameObject simon in simonSays)
             {
@@ -92,7 +89,7 @@ public class SimonSays : Game
             delayTime = delayCooldown;
         }
 
-        if(delayTime <= 0 && positionFlash < limit && isBroken && !isWrong)
+        if(delayTime <= 0 && positionFlash < limit && isBroken && !isWrong && !isDestroyed)
         {
             if (!isOn) {
                 simonSays[simonSequence[positionFlash]].GetComponent<MeshRenderer>().material = flashOn;
@@ -105,11 +102,13 @@ public class SimonSays : Game
             }
             delayTime = delayCooldown;
         }
+
+        base.Update();
     }
 
     private void SimonSaysLoop(bool outcome)
     {
-        if (isBroken)
+        if (isBroken && !isDestroyed)
         {
             if (!outcome)
             {
@@ -138,11 +137,12 @@ public class SimonSays : Game
         }
         CreateSequence();
         positionFlash = 0;
+        position = 0;
     }
 
     public void ButtonPress(int id)
     {
-        if (isBroken && !isWrong)
+        if (isBroken && !isWrong && !isDestroyed)
         {
             playerSequence[position] = id;
 
@@ -162,6 +162,7 @@ public class SimonSays : Game
         simonSequence = new int[limit];
         playerSequence = new int[limit];
         position = 0;
+        positionFlash = 0;
 
         for (int i = 0; i < limit; i++)
         {

@@ -28,9 +28,13 @@ public class InputManager : MonoBehaviour
 
     public bool selectButtonRight;
     public bool selectButtonLeft;
+    public float selectButtonValueRight;
+    public float selectButtonValueLeft;
 
     public bool triggerClickRight;
     public bool triggerClickLeft;
+    public float triggerButtonValueRight;
+    public float triggerButtonValueLeft;
 
     //JOYSTICK POSITION
     public Vector2 rightJoystick;
@@ -56,6 +60,24 @@ public class InputManager : MonoBehaviour
 
         if(deviceRight.isValid || deviceLeft.isValid)
         {
+            InputFeatureUsage<float> selectBtnUsage = CommonUsages.grip;
+
+            if(deviceLeft.TryGetFeatureValue(selectBtnUsage, out selectButtonValueLeft)){
+
+            }
+            if(deviceRight.TryGetFeatureValue(selectBtnUsage, out selectButtonValueRight)){
+                
+            }
+
+            InputFeatureUsage<float> triggerBtnUsage = CommonUsages.trigger;
+
+            if(deviceLeft.TryGetFeatureValue(triggerBtnUsage, out triggerButtonValueLeft)){
+
+            }
+            if(deviceRight.TryGetFeatureValue(triggerBtnUsage, out triggerButtonValueRight)){
+                
+            }
+
             //PRIMARYBUTTON
             InputFeatureUsage<bool> primaryBtnUsage = CommonUsages.primaryButton;
 

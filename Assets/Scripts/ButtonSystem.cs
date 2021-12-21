@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ButtonSystem : MonoBehaviour
 {
     [SerializeField] private float maxDistDown = 0.3f;
+    [SerializeField] UnityEvent onClick;
+
 
     private bool isActivated = false;
     private bool wasActivated = false;
     private bool canActivate = true;
-    public bool doSomething = false;
+    public bool isActive = false;
 
     private float cooldown = 0.7f;
     private float cooldownTime = 0;
@@ -53,7 +56,8 @@ public class ButtonSystem : MonoBehaviour
         if(!wasActivated && wasActivated != isActivated)
         {
             wasActivated = !wasActivated;
-            doSomething = true;
+            onClick.Invoke();
+            isActive = true;
         }
     }
 
@@ -69,6 +73,7 @@ public class ButtonSystem : MonoBehaviour
             isActivated = false;
             canActivate = true;
             wasActivated = false;
+            isActive = false;
             rend.material = deactivatedMat;
         }
     }

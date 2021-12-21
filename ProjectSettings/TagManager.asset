@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - RightHand
+  - LeftHand
+  - Rail
+  - Tool
+  - End
+  - RepairKit
+  - Cursor-Reaction
+  - Hit-Reaction
+  - Cursor-Menu
+  - Button-Menu
   layers:
   - Default
   - TransparentFX
@@ -13,10 +23,10 @@ TagManager:
   - UI
   - Grab Interactible
   - Player
-  - 
-  - 
-  - 
-  - 
+  - Things
+  - PlayerHands
+  - NonInteractables
+  - Button
   - 
   - 
   - 
