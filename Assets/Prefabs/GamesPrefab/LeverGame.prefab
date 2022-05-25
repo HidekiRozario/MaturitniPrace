@@ -3489,6 +3489,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a82bc25a19c714ea31fdb0bc770b97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 500
+  hpMax: 100
+  hpRepairKit: 250
+  taskName: Levers
   score: 100
   isBroken: 0
   cantBreakCooldown: 5
@@ -6316,6 +6320,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8374625911113418315, guid: c83b6c8cbdd498948808f21924d2a2bc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Task-Collider
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83b6c8cbdd498948808f21924d2a2bc, type: 3}
 --- !u!1 &8420425107540997867 stripped
@@ -6396,6 +6405,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374625911113418315, guid: c83b6c8cbdd498948808f21924d2a2bc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Task-Collider
       objectReference: {fileID: 0}
     - target: {fileID: 8374625911113418316, guid: c83b6c8cbdd498948808f21924d2a2bc,
         type: 3}
@@ -6483,6 +6497,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8374625911113418315, guid: c83b6c8cbdd498948808f21924d2a2bc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Task-Collider
+      objectReference: {fileID: 0}
     - target: {fileID: 8374625911113418316, guid: c83b6c8cbdd498948808f21924d2a2bc,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
@@ -6569,6 +6588,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8374625911113418315, guid: c83b6c8cbdd498948808f21924d2a2bc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Task-Collider
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83b6c8cbdd498948808f21924d2a2bc, type: 3}
 --- !u!1 &8420425108753568293 stripped
@@ -6649,6 +6673,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374625911113418315, guid: c83b6c8cbdd498948808f21924d2a2bc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Task-Collider
       objectReference: {fileID: 0}
     - target: {fileID: 8374625911113418316, guid: c83b6c8cbdd498948808f21924d2a2bc,
         type: 3}

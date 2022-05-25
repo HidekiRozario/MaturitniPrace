@@ -29,6 +29,7 @@ public class ReactionGame : Game
     public void Start()
     {
         cursor1Reset = cursor1Offset.localPosition;
+        speed = speed * (difficulty);
     }
 
     public override void Update()

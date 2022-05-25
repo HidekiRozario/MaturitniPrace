@@ -2586,6 +2586,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1d101a504e9f3e42b14cd56492689a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 1000
+  hpMax: 100
+  hpRepairKit: 250
+  taskName: Math
   score: 500
   isBroken: 0
   cantBreakCooldown: 5
@@ -7542,9 +7546,9 @@ GameObject:
   - component: {fileID: 1446601906666203165}
   - component: {fileID: 1446601906666203166}
   - component: {fileID: 1446601906666203153}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ButtonActivator
-  m_TagString: Untagged
+  m_TagString: Task-Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7827,9 +7831,9 @@ GameObject:
   - component: {fileID: 3083482796900128508}
   - component: {fileID: 3083482796900128511}
   - component: {fileID: 3083482796900128496}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ButtonActivator
-  m_TagString: Untagged
+  m_TagString: Task-Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8112,9 +8116,9 @@ GameObject:
   - component: {fileID: 6148034889657058971}
   - component: {fileID: 6148034889657058968}
   - component: {fileID: 6148034889657058967}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ButtonActivator
-  m_TagString: Untagged
+  m_TagString: Task-Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -20,6 +20,11 @@ public class MathGame : Game
     private int round = 0;
     private int rightAnswer = -1;
 
+    private void Start()
+    {
+        maxRound = 4 + difficulty;
+    }
+
     // Update is called once per frame
     public override void Update()
     {

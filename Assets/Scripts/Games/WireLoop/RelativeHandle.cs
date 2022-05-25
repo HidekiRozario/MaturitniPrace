@@ -10,15 +10,18 @@ public class RelativeHandle : XRSimpleInteractable
 
     private GameObject handPos;
     private Transform toolT;
-    private Vector3 startPos;
     private Quaternion startRot;
     [SerializeField] private Transform endPos;
+    [SerializeField] private Transform startPos;
+
+    private void Awake()
+    {
+        toolT = transform.parent;
+        startRot = transform.rotation;
+    }
 
     private void Start()
     {
-        toolT = transform.parent;
-        startPos = transform.position;
-        startRot = transform.rotation;
         EndTool();
     }
 
@@ -34,9 +37,9 @@ public class RelativeHandle : XRSimpleInteractable
     public void ResetTool()
     {
         canHold = true;
-        transform.position = startPos;
-        transform.rotation = startRot;
         handPos = null;
+        transform.position = startPos.position;
+        transform.rotation = startRot;
     }
 
     public void EndTool()
@@ -54,7 +57,7 @@ public class RelativeHandle : XRSimpleInteractable
         {
             isHolding = false;
             handPos = null;
-            transform.position = startPos;
+            transform.position = startPos.position;
             transform.rotation = startRot;
         }
         if (other.gameObject.tag == "End")

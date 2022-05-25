@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7432664457507733518}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_thumb3
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5641035664475693145}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_pinky_ignore
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6534196123618535489}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_pinky0
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3716877950422326546}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_thumb_ignore
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -133,7 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1533193261893394105}
   - component: {fileID: 246829207913401157}
-  m_Layer: 9
+  - component: {fileID: 4633209856156562782}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -168,6 +169,20 @@ CapsuleCollider:
   m_Height: 0.045
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &4633209856156562782
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410036685917340281}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.012
+  m_Height: 0.045
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &499650509125699828
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,7 +193,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1445426718551604061}
   - component: {fileID: 4781289337075592582}
-  m_Layer: 9
+  - component: {fileID: 7402948406642863687}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -213,6 +229,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &7402948406642863687
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499650509125699828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.007
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &660380172212383694
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,7 +252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3113405920539557244}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_hand_ignore
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -253,7 +283,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3030022030554932962}
   - component: {fileID: 6526729724478225134}
-  m_Layer: 9
+  - component: {fileID: 3825292347562366124}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -288,6 +319,20 @@ CapsuleCollider:
   m_Height: 0.03
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &3825292347562366124
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693384467095822129}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.006
+  m_Height: 0.03
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &731319390665330705
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,7 +343,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1346124760491012294}
   - component: {fileID: 6280560623946083504}
-  m_Layer: 9
+  - component: {fileID: 7442214581842146073}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -333,6 +379,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &7442214581842146073
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731319390665330705}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.007
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &900002330981092530
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,7 +403,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6405161634436425154}
   - component: {fileID: 7677336139362820661}
-  m_Layer: 9
+  - component: {fileID: 6039908321537286024}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -378,6 +439,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &6039908321537286024
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900002330981092530}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &934278903776677153
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,7 +462,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6760968454691053100}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_grip
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -418,7 +493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7086869646480171014}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_ring_ignore
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -448,7 +523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5187475946215738922}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:hands_geom
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -479,7 +554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7537539249466789038}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_ring2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -512,7 +587,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2824578867637726052}
   - component: {fileID: 343334550123556738}
-  m_Layer: 9
+  - component: {fileID: 5387910265379942522}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -547,6 +623,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &5387910265379942522
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588613708925525154}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1618464383300235547
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,7 +647,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4660004368572981693}
   - component: {fileID: 2974047924053737294}
-  m_Layer: 9
+  - component: {fileID: 2489912912415143010}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -592,6 +683,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &2489912912415143010
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618464383300235547}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1649910094492029181
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +706,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2421816591578438618}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_pinky1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -633,7 +738,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9138507771810453678}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_middle_ignore
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -663,7 +768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5968580106677927123}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_middle3
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -695,7 +800,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1666818982322729793}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_grip
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -727,7 +832,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4063286080940933243}
   - component: {fileID: 1845164919885308819}
-  m_Layer: 9
+  - component: {fileID: 4562600330750235996}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -762,6 +868,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &4562600330750235996
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2252541669828717141}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.007
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2335332346200712461
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,7 +891,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 69853059483878636}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_middle1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -804,7 +924,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6217949759282502900}
   - component: {fileID: 5720798635984834287}
-  m_Layer: 9
+  - component: {fileID: 275309388474433255}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -839,6 +960,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &275309388474433255
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2389437800576408564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2446112632915498718
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,7 +983,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7979253017351586571}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_ring1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -880,7 +1015,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8018024004020988360}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_index3
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -912,7 +1047,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8473343190848072150}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_index_ignore
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -942,7 +1077,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5003784370501126258}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_thumb2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -974,7 +1109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8959372765083783956}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_pinky1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1006,7 +1141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3575868137073616778}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_index1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1038,7 +1173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1462381216256779490}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_index1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1071,7 +1206,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3015758245861499195}
   - component: {fileID: 8204912000814442561}
-  m_Layer: 9
+  - component: {fileID: 6236122772926138305}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1106,6 +1242,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &6236122772926138305
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2828095957436396425}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3048495521044132403
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,7 +1265,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1841961643147909196}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_thumb_ignore
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1146,7 +1296,8 @@ GameObject:
   m_Component:
   - component: {fileID: 778123703882019699}
   - component: {fileID: 79730823059445454}
-  m_Layer: 9
+  - component: {fileID: 90727893966766169}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1181,6 +1332,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &90727893966766169
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3111840857479843616}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3326713975145417004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,7 +1356,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5849131806762021558}
   - component: {fileID: 1894552514871615669}
-  m_Layer: 9
+  - component: {fileID: 7630735332092247395}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1226,6 +1392,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &7630735332092247395
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3326713975145417004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.007
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3333204269657479044
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,7 +1416,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8011891561193057691}
   - component: {fileID: 3666107583058760515}
-  m_Layer: 9
+  - component: {fileID: 2191946223878439377}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1271,6 +1452,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &2191946223878439377
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3333204269657479044}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.008
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3355108536993430412
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,7 +1476,8 @@ GameObject:
   m_Component:
   - component: {fileID: 11795500652750718}
   - component: {fileID: 5867555314792000514}
-  m_Layer: 9
+  - component: {fileID: 3899057716258317697}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1316,6 +1512,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &3899057716258317697
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3355108536993430412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3635792468841678742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,7 +1536,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8470960287734386467}
   - component: {fileID: 4420103580888783106}
-  m_Layer: 9
+  - component: {fileID: 1594048884395838789}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1360,6 +1571,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.036350623, y: 0.069779195, z: 0.08383215}
   m_Center: {x: -0.018563861, y: 0.0067831096, z: 0.017036136}
+--- !u!65 &1594048884395838789
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3635792468841678742}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.036350623, y: 0.069779195, z: 0.08383215}
+  m_Center: {x: -0.018563861, y: 0.0067831096, z: 0.017036136}
 --- !u!1 &3669570814098460632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1374,6 +1598,7 @@ GameObject:
   - component: {fileID: 8690668288313508677}
   - component: {fileID: 5981102078526420886}
   - component: {fileID: 686564286500484509}
+  - component: {fileID: 7752535662880859248}
   m_Layer: 7
   m_Name: InteractionManager
   m_TagString: Untagged
@@ -1532,6 +1757,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7752535662880859248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3669570814098460632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 0}
 --- !u!1 &3685555885142863344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1541,7 +1779,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3322579936295215666}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_middle2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1573,7 +1811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4310822885369509526}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_hand
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1610,7 +1848,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6695945023454259219}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_index2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1642,7 +1880,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2460109460169264240}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_ring1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1665,6 +1903,81 @@ Transform:
   m_Father: {fileID: 8895814172714885012}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3869599753671332958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7324261407710427712}
+  - component: {fileID: 8149243116097102120}
+  - component: {fileID: 5633100681284752390}
+  m_Layer: 7
+  m_Name: EndImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7324261407710427712
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3869599753671332958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 954167303624423391}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 658.26, y: 418.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8149243116097102120
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3869599753671332958}
+  m_CullTransparentMesh: 1
+--- !u!114 &5633100681284752390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3869599753671332958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.9961519, b: 0.8537736, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &3881295599057264317
 GameObject:
   m_ObjectHideFlags: 0
@@ -1674,7 +1987,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2071227752485029990}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_ring3
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1707,7 +2020,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6878849932137323199}
   - component: {fileID: 8686449284331753365}
-  m_Layer: 9
+  - component: {fileID: 4947082096582472899}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1742,6 +2056,120 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &4947082096582472899
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3945249416700692916}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &3956233730380326504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 954167303624423391}
+  - component: {fileID: 8670774457802944937}
+  - component: {fileID: 2166505284817787009}
+  - component: {fileID: 3432805532521609365}
+  m_Layer: 7
+  m_Name: VRUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &954167303624423391
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3956233730380326504}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 7324261407710427712}
+  m_Father: {fileID: 6131627411818131038}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &8670774457802944937
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3956233730380326504}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 8118775699904411898}
+  m_PlaneDistance: 0.051
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 10
+  m_TargetDisplay: 0
+--- !u!114 &2166505284817787009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3956233730380326504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &3432805532521609365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3956233730380326504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &3984700084876752935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1752,7 +2180,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8111189991440773175}
   - component: {fileID: 6189009174593568918}
-  m_Layer: 9
+  - component: {fileID: 6494735719694871309}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1787,6 +2216,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &6494735719694871309
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3984700084876752935}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4102607572343944120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1797,7 +2240,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4053798532580664125}
   - component: {fileID: 6253859275636309042}
-  m_Layer: 9
+  - component: {fileID: 3967712298569153461}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1832,6 +2276,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &3967712298569153461
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4102607572343944120}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.007
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4159177578008237998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1842,7 +2300,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7899656057095554077}
   - component: {fileID: 1287258899078391956}
-  m_Layer: 9
+  - component: {fileID: 5540742133790052003}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1877,6 +2336,20 @@ CapsuleCollider:
   m_Height: 0.045
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &5540742133790052003
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4159177578008237998}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.045
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4310517226461124631
 GameObject:
   m_ObjectHideFlags: 0
@@ -1887,7 +2360,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1170849937670294856}
   - component: {fileID: 4007465830294010996}
-  m_Layer: 9
+  - component: {fileID: 947465642098491652}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1922,6 +2396,20 @@ CapsuleCollider:
   m_Height: 0.045
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &947465642098491652
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4310517226461124631}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.045
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4612078806444181387
 GameObject:
   m_ObjectHideFlags: 0
@@ -1931,7 +2419,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1235177645819081084}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_ring2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1964,7 +2452,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1578645385536029486}
   - component: {fileID: 7547790525408381888}
-  m_Layer: 9
+  - component: {fileID: 3034601964451966626}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1999,6 +2488,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &3034601964451966626
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4684809710775316095}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4700874711828187273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2010,7 +2513,7 @@ GameObject:
   - component: {fileID: 5365770711658041907}
   - component: {fileID: 3571522338643018049}
   - component: {fileID: 2387718919577721150}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: RightHand
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2077,7 +2580,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2781756374095991735}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_hand_ignore
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2107,7 +2610,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3905285407073190935}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_middle1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2141,7 +2644,7 @@ GameObject:
   - component: {fileID: 7951298246942399738}
   - component: {fileID: 7223961028685939607}
   - component: {fileID: 6179718358388869828}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: LeftHand
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2208,7 +2711,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3740210401864617809}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_middle_ignore
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2238,7 +2741,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8895814172714885012}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_hand
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2276,7 +2779,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1618716892731935421}
   - component: {fileID: 4273311557157316710}
-  m_Layer: 9
+  - component: {fileID: 7242520412948201295}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2310,6 +2814,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.036350623, y: 0.069779195, z: 0.08383215}
   m_Center: {x: -0.018563861, y: 0.0067831096, z: 0.017036136}
+--- !u!65 &7242520412948201295
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5458985297378382547}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.036350623, y: 0.069779195, z: 0.08383215}
+  m_Center: {x: -0.018563861, y: 0.0067831096, z: 0.017036136}
 --- !u!1 &5500725044692820922
 GameObject:
   m_ObjectHideFlags: 0
@@ -2320,7 +2837,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1421769539329432671}
   - component: {fileID: 8751911459973915}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:Lhand
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2428,7 +2945,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2451047789326235442}
   - component: {fileID: 6846865843047525263}
-  m_Layer: 9
+  - component: {fileID: 7590234542669827463}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2463,6 +2981,20 @@ CapsuleCollider:
   m_Height: 0.03
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &7590234542669827463
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5539186451187235488}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.007
+  m_Height: 0.03
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5640921274052764876
 GameObject:
   m_ObjectHideFlags: 0
@@ -2473,7 +3005,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7638230450036313539}
   - component: {fileID: 296930347037593944}
-  m_Layer: 9
+  - component: {fileID: 6496721597955221434}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2508,6 +3041,20 @@ CapsuleCollider:
   m_Height: 0.045
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &6496721597955221434
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5640921274052764876}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.012
+  m_Height: 0.045
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5805747459969524666
 GameObject:
   m_ObjectHideFlags: 0
@@ -2518,7 +3065,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2015986067834860539}
   - component: {fileID: 322426953450032989}
-  m_Layer: 9
+  - component: {fileID: 5076259617306031027}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2553,6 +3101,20 @@ CapsuleCollider:
   m_Height: 0.03
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &5076259617306031027
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5805747459969524666}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.007
+  m_Height: 0.03
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5900215785128568213
 GameObject:
   m_ObjectHideFlags: 0
@@ -2562,7 +3124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2074100793586101763}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_middle2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2594,7 +3156,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6822610939887248562}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_index3
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2626,7 +3188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4271403645665189016}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_middle3
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2658,7 +3220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3750072407718894037}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_ring_ignore
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2689,7 +3251,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1306057184148859984}
   - component: {fileID: 2330449539987770174}
-  m_Layer: 9
+  - component: {fileID: 1501662638065422347}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2724,6 +3287,20 @@ CapsuleCollider:
   m_Height: 0.045
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1501662638065422347
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6306241889068293921}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.045
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6318072987026783282
 GameObject:
   m_ObjectHideFlags: 0
@@ -2734,7 +3311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6301930826247281716}
   - component: {fileID: 640101727063147825}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:Lhand
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2841,7 +3418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5487222301973967101}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_thumb1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2873,7 +3450,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9116004881965463976}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_index2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2905,7 +3482,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2565101133255928281}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_pinky2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2969,7 +3546,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8966862595869894295}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_thumb3
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3002,7 +3579,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3744342645239616278}
   - component: {fileID: 2092755868266218084}
-  m_Layer: 9
+  - component: {fileID: 7773345694738905374}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3037,6 +3615,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &7773345694738905374
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7042303911917145716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.007
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7274507457561988631
 GameObject:
   m_ObjectHideFlags: 0
@@ -3047,7 +3639,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7093424454129426034}
   - component: {fileID: 1741446050430089168}
-  m_Layer: 9
+  - component: {fileID: 6563852753692553619}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3082,6 +3675,20 @@ CapsuleCollider:
   m_Height: 0.045
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &6563852753692553619
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7274507457561988631}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.045
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7466236879983395770
 GameObject:
   m_ObjectHideFlags: 0
@@ -3091,7 +3698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 890698131792824565}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_pinky3
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3123,7 +3730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8912218298135729807}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:l_hand_world
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3154,7 +3761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 342886299579467449}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_thumb1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3186,7 +3793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 979188055773831026}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:hands_geom
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3218,7 +3825,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4067724222248323853}
   - component: {fileID: 643591018132531472}
-  m_Layer: 9
+  - component: {fileID: 7882944571288523461}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3253,6 +3861,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &7882944571288523461
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7779847906106889097}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7885589270978362328
 GameObject:
   m_ObjectHideFlags: 0
@@ -3262,7 +3884,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 529785050876115275}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:l_hand_world
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3294,7 +3916,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5853337348861794936}
   - component: {fileID: 402908618451549161}
-  m_Layer: 9
+  - component: {fileID: 5521054106235023809}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3329,6 +3952,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &5521054106235023809
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8049031369563325137}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.008
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8118775699242316297
 GameObject:
   m_ObjectHideFlags: 0
@@ -3339,7 +3976,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8118775699242316299}
   - component: {fileID: 8260616109414219828}
-  - component: {fileID: 8861137114176179701}
   - component: {fileID: 9137046618614091320}
   - component: {fileID: 3365837599281327066}
   - component: {fileID: 8484814429432059859}
@@ -3360,9 +3996,9 @@ Transform:
   m_GameObject: {fileID: 8118775699242316297}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.005}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children:
-  - {fileID: 8118775699921138921}
+  - {fileID: 7577324660874524285}
   - {fileID: 6179205430593153778}
   - {fileID: 6335060429118113255}
   m_Father: {fileID: 0}
@@ -3387,18 +4023,6 @@ MonoBehaviour:
   m_CameraYOffset: 1.36144
   m_TrackingSpace: 3
   m_TrackingOriginMode: -2147483648
---- !u!114 &8861137114176179701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8118775699242316297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d9a4487116800e4a8fc7b43124d746e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!143 &9137046618614091320
 CharacterController:
   m_ObjectHideFlags: 0
@@ -3412,8 +4036,8 @@ CharacterController:
   serializedVersion: 2
   m_Height: 2
   m_Radius: 0.25
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_SlopeLimit: 0
+  m_StepOffset: 0
   m_SkinWidth: 0.0001
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
@@ -3443,7 +4067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99979f38f89e384b893949103457f1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCam: {fileID: 8118775699904411901}
+  playerCam: {fileID: 6131627411818131038}
 --- !u!114 &509740200067265026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3626,7 +4250,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 80
   m_AttachTransform: {fileID: 0}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
@@ -3706,11 +4330,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8118775699904411901}
+  - component: {fileID: 6131627411818131038}
   - component: {fileID: 8118775699904411898}
   - component: {fileID: 8118775699904411899}
   - component: {fileID: 2359904023568862926}
   - component: {fileID: 2413101952995189429}
+  - component: {fileID: 2777920925220446531}
   m_Layer: 7
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3718,7 +4343,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8118775699904411901
+--- !u!4 &6131627411818131038
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3728,8 +4353,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 8118775699921138921}
+  m_Children:
+  - {fileID: 954167303624423391}
+  m_Father: {fileID: 7577324660874524285}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &8118775699904411898
@@ -3768,8 +4394,8 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
+  m_HDR: 0
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -3861,6 +4487,120 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Rotation
       m_Flags: 0
+--- !u!114 &2777920925220446531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8118775699904411896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c1ce4fb46143f46bc5cb5224c934f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 7
+  m_ObsoleteRenderingPath: 0
+  m_ObsoleteFrameSettings:
+    overrides: 0
+    enableShadow: 0
+    enableContactShadows: 0
+    enableShadowMask: 0
+    enableSSR: 0
+    enableSSAO: 0
+    enableSubsurfaceScattering: 0
+    enableTransmission: 0
+    enableAtmosphericScattering: 0
+    enableVolumetrics: 0
+    enableReprojectionForVolumetrics: 0
+    enableLightLayers: 0
+    enableExposureControl: 1
+    diffuseGlobalDimmer: 0
+    specularGlobalDimmer: 0
+    shaderLitMode: 0
+    enableDepthPrepassWithDeferredRendering: 0
+    enableTransparentPrepass: 0
+    enableMotionVectors: 0
+    enableObjectMotionVectors: 0
+    enableDecals: 0
+    enableRoughRefraction: 0
+    enableTransparentPostpass: 0
+    enableDistortion: 0
+    enablePostprocess: 0
+    enableOpaqueObjects: 0
+    enableTransparentObjects: 0
+    enableRealtimePlanarReflection: 0
+    enableMSAA: 0
+    enableAsyncCompute: 0
+    runLightListAsync: 0
+    runSSRAsync: 0
+    runSSAOAsync: 0
+    runContactShadowsAsync: 0
+    runVolumeVoxelizationAsync: 0
+    lightLoopSettings:
+      overrides: 0
+      enableDeferredTileAndCluster: 0
+      enableComputeLightEvaluation: 0
+      enableComputeLightVariants: 0
+      enableComputeMaterialVariants: 0
+      enableFptlForForwardOpaque: 0
+      enableBigTilePrepass: 0
+      isFptlEnabled: 0
+  clearColorMode: 0
+  backgroundColorHDR: {r: 0.025, g: 0.07, b: 0.19, a: 0}
+  clearDepth: 1
+  volumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  volumeAnchorOverride: {fileID: 0}
+  antialiasing: 0
+  SMAAQuality: 2
+  dithering: 0
+  stopNaNs: 0
+  taaSharpenStrength: 0.5
+  TAAQuality: 1
+  taaHistorySharpening: 0.35
+  taaAntiFlicker: 0.5
+  taaMotionVectorRejection: 0
+  taaAntiHistoryRinging: 0
+  physicalParameters:
+    m_Iso: 200
+    m_ShutterSpeed: 0.005
+    m_Aperture: 16
+    m_BladeCount: 5
+    m_Curvature: {x: 2, y: 11}
+    m_BarrelClipping: 0.25
+    m_Anamorphism: 0
+  flipYMode: 0
+  xrRendering: 1
+  fullscreenPassthrough: 0
+  allowDynamicResolution: 0
+  customRenderingSettings: 0
+  invertFaceCulling: 0
+  probeLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  hasPersistentHistory: 0
+  exposureTarget: {fileID: 0}
+  m_RenderingPathCustomFrameSettings:
+    bitDatas:
+      data1: 72198262773251917
+      data2: 13763000468760363032
+    lodBias: 1
+    lodBiasMode: 0
+    lodBiasQualityLevel: 0
+    maximumLODLevel: 0
+    maximumLODLevelMode: 0
+    maximumLODLevelQualityLevel: 0
+    sssQualityMode: 0
+    sssQualityLevel: 0
+    sssCustomSampleBudget: 20
+    materialQuality: 0
+  renderingPathCustomFrameSettingsOverrideMask:
+    mask:
+      data1: 0
+      data2: 0
+  defaultFrameSettings: 0
 --- !u!1 &8118775699921138902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3869,7 +4609,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8118775699921138921}
+  - component: {fileID: 7577324660874524285}
   m_Layer: 7
   m_Name: Camera Offset
   m_TagString: Untagged
@@ -3877,18 +4617,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8118775699921138921
+--- !u!4 &7577324660874524285
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8118775699921138902}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 8118775699904411901}
+  - {fileID: 6131627411818131038}
   m_Father: {fileID: 8118775699242316299}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4099,7 +4839,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 80
   m_AttachTransform: {fileID: 0}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
@@ -4180,7 +4920,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6041704808592387753}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_pinky_ignore
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4210,7 +4950,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4306793821312193845}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_pinky3
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4242,7 +4982,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2997429840352140598}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_index_ignore
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4272,7 +5012,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8084630265258531204}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_thumb2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4304,7 +5044,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1579409988280651951}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_ring3
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4336,7 +5076,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3812863006982550911}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_pinky0
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4368,7 +5108,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8446163970619584593}
   - component: {fileID: 2708887200447113961}
-  m_Layer: 9
+  - component: {fileID: 5753291140995755798}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4403,6 +5144,20 @@ CapsuleCollider:
   m_Height: 0.04
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &5753291140995755798
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9083352620775312664}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.01
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9170003048166086057
 GameObject:
   m_ObjectHideFlags: 0
@@ -4413,7 +5168,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7703903215152756075}
   - component: {fileID: 6281673601396536970}
-  m_Layer: 9
+  - component: {fileID: 6822829856972488147}
+  m_Layer: 12
   m_Name: Collider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4448,6 +5204,20 @@ CapsuleCollider:
   m_Height: 0.03
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &6822829856972488147
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9170003048166086057}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.006
+  m_Height: 0.03
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9175749009760302675
 GameObject:
   m_ObjectHideFlags: 0
@@ -4457,7 +5227,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5518050992307328108}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: hands:b_l_pinky2
   m_TagString: Player
   m_Icon: {fileID: 0}

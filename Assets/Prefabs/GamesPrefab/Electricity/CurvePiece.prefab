@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3322790288646480139}
   m_Layer: 0
   m_Name: CurvePiece
-  m_TagString: Untagged
+  m_TagString: Task-Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64,6 +64,8 @@ MonoBehaviour:
   left: 0
   right: 1
   down: 1
+  rootI: 0
+  rootJ: 0
   type: 0
   rends:
   - {fileID: 421780557889475559}

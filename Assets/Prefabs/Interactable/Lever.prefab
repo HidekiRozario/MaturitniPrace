@@ -128,6 +128,7 @@ GameObject:
   - component: {fileID: 8374625911113418304}
   - component: {fileID: 8374625911113418316}
   - component: {fileID: 9008153802568855287}
+  - component: {fileID: 3557380602182066851}
   m_Layer: 0
   m_Name: burh
   m_TagString: Untagged
@@ -397,11 +398,109 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 1
+  leverAudioSource: {fileID: 3557380602182066851}
   activatedUpMat: {fileID: 2100000, guid: a2fc53cc79e877643a55343b0b9dd692, type: 2}
   activatedDownMat: {fileID: 2100000, guid: f918f1908d6bba44a9e1f2707dae009f, type: 2}
   deactivatedMat: {fileID: 2100000, guid: a62ffb9b54991b044a838450b1937d49, type: 2}
   rightHandHolding: {fileID: 8689963767980742192}
   leftHandHolding: {fileID: 54654522824221020}
+--- !u!82 &3557380602182066851
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8374625911113418315}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 5d0029f215b6d4c4883c46d48b3fc377,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: e0bbd7f0e45ad5848a0538a48074862a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &8374625911132776168
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,6 +823,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9212204005817951707, guid: b72a2edeb51b95a47ab89a5433206c5c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eee5eb652fdafd14e9ec39e990f160a0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b72a2edeb51b95a47ab89a5433206c5c, type: 3}
 --- !u!1 &8689963767980742192 stripped
@@ -925,6 +1029,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7103372390079946605, guid: 829af37e3e41c0b408b01f63a7000ab3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eee5eb652fdafd14e9ec39e990f160a0, type: 2}
     - target: {fileID: 7839665075290670294, guid: 829af37e3e41c0b408b01f63a7000ab3,
         type: 3}
       propertyPath: m_Layer

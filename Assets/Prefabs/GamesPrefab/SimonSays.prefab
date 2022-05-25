@@ -4380,6 +4380,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dafb9aa113064ec4780e646712171cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 1350
+  hpMax: 100
+  hpRepairKit: 250
+  taskName: Simon
   score: 150
   isBroken: 0
   cantBreakCooldown: 5

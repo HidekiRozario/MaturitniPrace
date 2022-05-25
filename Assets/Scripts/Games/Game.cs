@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Game : MonoBehaviour
 {
-    private float hp = 100;
+    [SerializeField] private float hp = 100;
+    [SerializeField] private float hpMax = 100;
+    [SerializeField] private float hpRepairKit = 250;
     private float hpMultiplier = 1f;
     private float lastTime = 0;
     protected int difficulty = 1; // 1-easy 2-medium 3-hard
 
+    [SerializeField] private string taskName;
     [SerializeField] public int score = 500;
     [SerializeField] protected bool isBroken = false;
     [SerializeField] private float cantBreakCooldown = 5f;
@@ -20,15 +23,17 @@ public class Game : MonoBehaviour
     public Vector3 spawnOffset;
 
     protected bool wasBroken = false;
-    protected bool isDestroyed = false;
+    [SerializeField] protected bool isDestroyed = false;
     private bool cantBreak = false;
 
     //-------------------------------------------------
     //---------------DamageVisualizer------------------
-    private Transform damageVis;
+    [SerializeField] private Transform damageVis;
 
-    private void Awake()
+    public virtual void Awake()
     {
+        lastTime = Time.time;
+        hpMax = hp;
         damageVis = transform.Find("Visualizer").Find("DamageVisualizer").GetComponent<Transform>();
     }
 
@@ -42,7 +47,7 @@ public class Game : MonoBehaviour
 
         if(hp > 0)
         {
-            damageVis.localScale = new Vector3(1, 1, hp / 100);
+            damageVis.localScale = new Vector3(1, 1, hp / hpMax);
         }
 
         if (isBroken && !isDestroyed)
@@ -71,10 +76,10 @@ public class Game : MonoBehaviour
     {
         if(other.collider.transform.tag == "RepairKit" && !isDestroyed)
         {
-            if(hp + 40 > 100)
-                hp = 100;
+            if(hp + hpRepairKit > hpMax)
+                hp = hpMax;
             else
-                hp += 40;
+                hp += hpRepairKit;
 
             Destroy(other.collider.gameObject);
         }
@@ -104,8 +109,20 @@ public class Game : MonoBehaviour
         else isBroken = false;
     }
 
+    public void SetBroken(bool _isBroken, bool onlyBreak)
+    {
+        isBroken = _isBroken;
+    }
+
+    public void SetDestroyed(bool _isDestroyed, bool onlyBreak)
+    {
+        isDestroyed = _isDestroyed;
+    }
+
     public void SetWasBroken(bool _wasBroken)
     {
         wasBroken = _wasBroken;
     }
+
+    public string GetTaskName() => taskName;
 }

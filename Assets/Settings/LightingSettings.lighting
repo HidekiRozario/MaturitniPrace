@@ -20,7 +20,7 @@ LightingSettings:
   m_LightmapMaxSize: 512
   m_BakeResolution: 500
   m_Padding: 100
-  m_TextureCompression: 0
+  m_TextureCompression: 1
   m_AO: 0
   m_AOMaxDistance: 1
   m_CompAOExponent: 1

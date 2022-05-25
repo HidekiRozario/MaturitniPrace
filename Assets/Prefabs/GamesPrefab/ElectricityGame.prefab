@@ -600,6 +600,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be92424801a71c341a36a698f4fc84e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 1500
+  hpMax: 100
+  hpRepairKit: 250
+  taskName: Electric
   score: 500
   isBroken: 0
   cantBreakCooldown: 5
@@ -608,6 +612,8 @@ MonoBehaviour:
   signalOff: {fileID: 2100000, guid: 5c2b1fc13f956b047af37dd2cf9b4057, type: 2}
   signalDead: {fileID: 2100000, guid: eee5eb652fdafd14e9ec39e990f160a0, type: 2}
   spawnOffset: {x: 0.7, y: 0.75, z: 0.25}
+  isDestroyed: 0
+  damageVis: {fileID: 0}
   defaultPieces:
   - {fileID: 421780557362442582, guid: 0d4a7759d6501d744816869610964624, type: 3}
   - {fileID: 6318909121604286640, guid: 6284c51cee265644397dcca2333d35f6, type: 3}

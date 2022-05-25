@@ -9,6 +9,8 @@ public class LeverInteractable : XRGrabInteractable
     private bool activatedDown = false;
     private bool isGrabbed = false;
 
+    [SerializeField] private AudioSource leverAudioSource;
+
     [SerializeField] private Material activatedUpMat;
     [SerializeField] private Material activatedDownMat;
     [SerializeField] private Material deactivatedMat;
@@ -34,17 +36,23 @@ public class LeverInteractable : XRGrabInteractable
 
     void Update()
     {
-        if(transform.localRotation.eulerAngles.x >= 25 && transform.localRotation.eulerAngles.x <= 40 && !isGrabbed)
+        if(transform.localRotation.eulerAngles.x >= 25 && transform.localRotation.eulerAngles.x <= 40)
         {
+            if (!activatedUp)
+                leverAudioSource.Play();
+
             activatedUp = true;
             activatedDown = false;
             rend.material = activatedUpMat;
-        } else if (transform.localRotation.eulerAngles.x <= 345 && transform.localRotation.eulerAngles.x >= 325 && !isGrabbed)
+        } else if (transform.localRotation.eulerAngles.x <= 345 && transform.localRotation.eulerAngles.x >= 325)
         {
+            if(!activatedDown)
+                leverAudioSource.Play();
+
             activatedDown = true;
             activatedUp = false;
             rend.material = activatedDownMat;
-        } else if (!isGrabbed)
+        } else
         {
             activatedDown = false;
             activatedUp = false;

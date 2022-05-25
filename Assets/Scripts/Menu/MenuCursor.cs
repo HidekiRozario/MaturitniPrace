@@ -1,0 +1,29 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MenuCursor : MonoBehaviour
+{
+    [SerializeField] GameObject button = null;
+
+    public void OnClick()
+    {
+        if(button != null)
+        {
+            button.GetComponent<MenuButtons>().ButtonOnClick();
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if(other.gameObject.tag == "Button-Menu")
+        {
+            button = other.gameObject;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        button = null;
+    }
+}

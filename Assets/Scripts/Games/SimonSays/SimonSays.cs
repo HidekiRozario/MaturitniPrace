@@ -136,7 +136,6 @@ public class SimonSays : Game
             simon.GetComponent<MeshRenderer>().material = flashDefault;
         }
         CreateSequence();
-        positionFlash = 0;
         position = 0;
     }
 
@@ -144,15 +143,15 @@ public class SimonSays : Game
     {
         if (isBroken && !isWrong && !isDestroyed)
         {
-            playerSequence[position] = id;
+            position++;
+            playerSequence[position - 1] = id;
 
-            if (playerSequence[position] != simonSequence[position])
+            if (playerSequence[position - 1] != simonSequence[position - 1])
             {
                 isWrong = true;
                 SimonSaysLoop(false);
             }
 
-            position++;
             SimonSaysLoop(true);
         }
     }
@@ -163,6 +162,8 @@ public class SimonSays : Game
         playerSequence = new int[limit];
         position = 0;
         positionFlash = 0;
+        delayTime = delayCooldown;
+        isOn = false;
 
         for (int i = 0; i < limit; i++)
         {
